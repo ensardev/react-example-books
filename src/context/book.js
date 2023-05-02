@@ -62,7 +62,7 @@ function Provider({children}){
 
 
     return (
-        <BooksContext.Provider value={{}}>
+        <BooksContext.Provider value={valueToShare}>
             {children}
         </BooksContext.Provider>
     );
